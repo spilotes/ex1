@@ -61,3 +61,30 @@ body {
   font-size: 0.95rem;
   white-space: nowrap;
 }
+
+.logo1 {
+  position: absolute;
+  top: 1vhvh;
+  left: 0.5rem;
+  width: 6vw;
+  height: 3vh;
+  background: #0c0f14;
+  border: 2px solid #c9d1d9;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 0.4rem #000);
+  cursor: pointer;
+  transition: all 0.3 ease-in-out;
+  z-index: 1;
+}
+
+.logo1:hover {
+  filter: drop-shadow(0 0 0.2rem #c9d1d9);
+}
+
+.logo1 .logo {
+  position: absolute;
+  width: 6vw;
+  top: 13vh;
+  left: 1rem;
+  filter: drop-shadow(0 0 1rem #000);
+}
