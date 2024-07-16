@@ -32,7 +32,7 @@
 .logo1 .logo {
   width: 7.4vw;
   top: 0.1vh;
-  left: 0;
+  left: 0.1rem;
   filter: drop-shadow(0 0 0.2rem #000);
 }
 }
