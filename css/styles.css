@@ -15,7 +15,7 @@
   background: url(../img/hashiras.png) repeat-x;
   height: 100vh;
   width: 6000px;
-  filter: brightness(15%);
+  filter: brightness(45%);
   animation: slide 300s linear infinite;
 }
 
