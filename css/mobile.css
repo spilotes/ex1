@@ -16,12 +16,10 @@
 }
 
   .logo1 {
-  position: absolute;
   top: -100vh;
   left: 0.5rem;
   width: 7vw;
   height: 3.5vh;
-  background: #0c0f14;
   border: 1px solid #c9d1d9;
   filter: drop-shadow(0 0 0.2rem #000);
 
@@ -32,10 +30,9 @@
 }
 
 .logo1 .logo {
-  position: absolute;
   width: 6vw;
   top: 1vh;
-  left: 1rem;
-  filter: drop-shadow(0 0 1rem #000);
+  left: 0.5rem;
+  filter: drop-shadow(0 0 0.2rem #000);
 }
 }
