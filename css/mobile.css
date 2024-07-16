@@ -17,7 +17,7 @@
 
   .logo1 {
   position: absolute;
-  top: 1vh;
+  top: -100vh;
   left: 0.5rem;
   width: 7vw;
   height: 3.5vh;
