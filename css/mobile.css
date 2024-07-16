@@ -5,13 +5,13 @@
   }
 
   .seasons {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 300;
 }
 
 #temperatura {
-
-  font-size: 0.85rem;
+  top: 1.5rem;
+  font-size: 0.8rem;
   font-weight: 300;
 }
 }
