@@ -6,13 +6,17 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: #0c0f14;
+}
+
 .wrapper {
   overflow-y: hidden;
   overflow-x: hidden;
 }
 
 .sliding-background {
-  background: url(../img/hashiras.png) repeat-x;
+  background: url(../img/qq.png) repeat-x;
   height: 100vh;
   width: 6000px;
   filter: brightness(45%);
