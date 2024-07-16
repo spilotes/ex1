@@ -5,22 +5,13 @@
   }
 
   .seasons {
-  position: absolute;
-  color: #c9d1d9;
-  top: 0.5rem;
-  right: 0.5rem;
   font-size: 1rem;
   font-weight: 300;
-  white-space: nowrap;
 }
 
 #temperatura {
-  position: absolute;
-  color: #c9d1d9;
-  top: 1.8rem;
-  right: 0.8rem;
+
   font-size: 1rem;
   font-weight: 300;
-  white-space: nowrap;
 }
 }
