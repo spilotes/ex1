@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #c9d1d9;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.sliding-background {
+  background: url(../img/hashiras.png) repeat-x;
+  height: 100vh;
+  width: 6000px;
+  filter: brightness(15%);
+  animation: slide 300s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-3840px, 0, 0);
+  }
+}
+
+.salution {
+  position: absolute;
+  top: 3.5vh;
+  font-size: 1.3rem;
+  font-family: "Nanum Pen Script", cursive;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  z-index: 1;
+}
