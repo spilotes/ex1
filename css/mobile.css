@@ -1,38 +1,46 @@
 @media screen and (max-width: 767px) {
   .salution {
-    top: 3vh;
+    top: 3.2vh;
     font-size: 1.3rem;
   }
 
   .seasons {
-  font-size: 0.77rem;
-  font-weight: 300;
-}
+    font-size: 0.77rem;
+    font-weight: 300;
+  }
 
-#temperatura {
-  top: 1.35rem;
-  font-size: 0.77rem;
-  font-weight: 300;
-}
+  #temperatura {
+    top: 1.35rem;
+    font-size: 0.77rem;
+    font-weight: 300;
+  }
 
   .logo1 {
-  top: 1vh;
-  left: 0.5rem;
-  width: 8vw;
-  height: 4vh;
-  border: 1px solid #c9d1d9;
-  filter: drop-shadow(0 0 0.2rem #000);
+    top: 1vh;
+    left: 0.5rem;
+    width: 8vw;
+    height: 4vh;
+    border: 1px solid #c9d1d9;
+    filter: drop-shadow(0 0 0.2rem #000);
+  }
 
-}
+  .logo1:hover {
+    filter: drop-shadow(0 0 0.2rem #c9d1d9);
+  }
 
-.logo1:hover {
-  filter: drop-shadow(0 0 0.2rem #c9d1d9);
-}
+  .logo1 .logo {
+    width: 7.4vw;
+    top: 0.1vh;
+    left: 0.05rem;
+    filter: drop-shadow(0 0 0.2rem #000);
+  }
 
-.logo1 .logo {
-  width: 7.4vw;
-  top: 0.1vh;
-  left: 0.05rem;
-  filter: drop-shadow(0 0 0.2rem #000);
-}
+  main .quote {
+    top: 46vh;
+    font-size: 0.85rem;
+  }
+
+  main .quote span {
+    margin-left: 0.5rem;
+  }
 }
